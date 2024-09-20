@@ -1,6 +1,6 @@
-!laboratorios/
-
-
 **/.ipynb_checkpoints/
+
 **/__pycache__/
+
 sesiones/**/*.ipynb
+
