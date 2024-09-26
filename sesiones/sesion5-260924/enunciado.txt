@@ -1,0 +1,40 @@
+# Caso de Negocio: Análisis de Retroalimentación del Cliente
+
+## Escenario Empresarial:
+Trabajas para una empresa de venta al por menor que valora la retroalimentación de los clientes. La empresa recibe comentarios de los clientes sobre sus productos y servicios. Tu tarea es analizar estos comentarios para identificar palabras clave positivas y negativas comunes mencionadas por los clientes.
+
+## Instrucciones:
+
+1. Se te proporciona una lista de comentarios de retroalimentación de los clientes. Cada comentario es una cadena de texto.
+
+```python
+feedback_comments = [
+    "¡El producto es excelente! Me encanta.",
+    "Servicio al cliente terrible. Nunca volveré a comprar.",
+    "Gran calidad y entrega rápida.",
+    "Experiencia decepcionante. El artículo llegó dañado.",
+    "Soberbio valor por el precio.",
+    "El envío fue rápido y el producto es excelente.",
+    "La atención al cliente es muy mala, no volveré.",
+    "Me encantó el diseño del producto, es genial.",
+    "La calidad del material es decepcionante.",
+    "Un servicio increíble, definitivamente compraré de nuevo.",
+    "El producto llegó en perfectas condiciones, ¡muy feliz!",
+    "La experiencia de compra fue terrible y confusa.",
+    "El valor es justo para la calidad ofrecida, soberbio.",
+    "Desafortunadamente, el artículo llegó dañado.",
+    "¡Excelente compra! Estoy muy satisfecho."
+]
+```
+
+2. Proporciona el pseudocódigo.
+3. Crea dos listas:
+   - `palabras_clave_positivas`: Usa una comprensión de lista para extraer palabras clave positivas de los comentarios de retroalimentación. Las palabras clave positivas son palabras como "excelente", "encanta", "genial" y "soberbio".
+    - `palabras_clave_negativas`: Usa otra comprensión de lista para extraer palabras clave negativas de los comentarios de retroalimentación. Las palabras clave negativas son palabras como "terrible", "decepcionante" y "dañado".
+
+### Consejos:
+
+- Puedes usar el método split() para dividir un comentario en palabras.
+- Asegúrate de que las palabras clave estén en minúsculas para capturar variaciones en el texto.
+- Utiliza comprensiones de listas o diccionarios para realizar la tarea de manera eficiente.
+
